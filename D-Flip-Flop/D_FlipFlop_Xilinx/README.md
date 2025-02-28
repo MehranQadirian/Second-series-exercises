@@ -1,3 +1,4 @@
+:star: D flip-flop characteristic table : 
 |Inputs|Output|Status|
 |:---:|:---:|:---:|
 |D|Q \| Q'|----|
