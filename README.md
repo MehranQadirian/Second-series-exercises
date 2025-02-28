@@ -1,3 +1,8 @@
+# Exercises Series 2 - Logic Circuit Lab Lesson
+## Created by: Mehran Ghadirian
+## Professor: Hojjat Fazaili
+### Project Description: In this project, all flip-flops have been implemented with Xilinx software in the Verilog language.
+
 | نوع فلیپ فلاپ | ورودی‌ها | خروجی‌ها | توضیحات |
 |---------------|----------|----------|---------|
 | SR Flip-Flop | S (Set), R (Reset) | Q, Q' | وقتی S=1 و R=0 باشد، Q=1 (Set) و وقتی S=0 و R=1 باشد، Q=0 (Reset). وضعیت غیرمجاز: S=1 و R=1. |
