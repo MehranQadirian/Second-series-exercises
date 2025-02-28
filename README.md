@@ -1,6 +1,6 @@
 # Exercises Series 2 - Logic Circuit Lab Lesson
 ## Created by: Mehran Ghadirian
-## Professor: Hojjat Fazaili
+## Professor: Dr.Hojjat Fazaili
 ### Project Description: In this project, all flip-flops have been implemented with Xilinx software in the Verilog language.
 
 | نوع فلیپ فلاپ | ورودی‌ها | خروجی‌ها | توضیحات |
