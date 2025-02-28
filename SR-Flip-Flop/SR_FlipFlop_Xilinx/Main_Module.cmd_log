@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "F:/ISE Project/Second-series-exercises/SR-Flip-Flop/SR_FlipFlop_Xilinx/Main_Module.xst" -ofn "F:/ISE Project/Second-series-exercises/SR-Flip-Flop/SR_FlipFlop_Xilinx/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Main_Module.ngc" Main_Module.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf 
